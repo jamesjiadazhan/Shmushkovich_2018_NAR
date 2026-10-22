@@ -1,0 +1,8 @@
+# R build artifacts
+*.Rcheck/
+*.tar.gz
+.Rhistory
+.RData
+.Rproj.user/
+# macOS
+.DS_Store

@@ -1,0 +1,13 @@
+citHeader("To cite sdrnapred, please cite the original paper; this package is an independent reimplementation and is not the authors' software.")
+
+bibentry(
+  bibtype = "Article",
+  title   = "Functional features defining the efficacy of cholesterol-conjugated, self-deliverable, chemically modified siRNAs",
+  author  = c(person("Taisia", "Shmushkovich"), person(c("Kathryn","R."), "Monopoli"),
+              person("Diana", "Homsy"), person("Dmitriy", "Leyfer"),
+              person("Monica", "Betancur-Boissel"), person("Anastasia", "Khvorova"),
+              person(c("Alexey","D."), "Wolfson")),
+  journal = "Nucleic Acids Research",
+  year    = 2018, volume = 46, number = 20, pages = "10905--10916",
+  doi     = "10.1093/nar/gky745"
+)

@@ -1,0 +1,25 @@
+Package: sdrnapred
+Title: Positional Base-Preference Scoring for Chemically Modified Self-Delivering siRNAs
+Version: 0.1.0
+Authors@R: person("Paper2Agent", "Reimplementation", role = c("aut", "cre"),
+                  email = "noreply@example.com")
+Description: An independent reimplementation of the linear regression-based
+    positional base-preference algorithm for predicting the efficacy of
+    cholesterol-conjugated, chemically modified, self-delivering siRNAs
+    (sdRNAs), described by Shmushkovich, Monopoli and colleagues in Nucleic
+    Acids Research (2018) <doi:10.1093/nar/gky745>. The package builds a
+    per-position, per-base weight matrix from a training set of 50-nucleotide
+    target regions and their measured efficacies, scores new target sequences
+    against that matrix, and evaluates predictions with positive predictive
+    power versus sensitivity curves and ROC analysis. The 356-compound training
+    set from the paper's Supplementary Table 1 is bundled. This package is not
+    the authors' own code, which was never released; see the README for a
+    point-by-point account of where the published description is ambiguous and
+    how closely the reimplementation reproduces the paper's reported benchmarks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
